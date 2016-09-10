@@ -40,7 +40,11 @@ install:
 script:
   - qmake -r
   - make
+  # Check that everything built correctly:
   - make check
+  # Now lets execute the app to see that it runs ok:
+  - pwd
+  - ./hello_world
 
 branches:
   only:
