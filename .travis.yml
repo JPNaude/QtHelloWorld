@@ -5,7 +5,6 @@ compiler:
 
 os:
   - linux
-  - osx
   
 sudo: required
 dist: trusty
@@ -17,7 +16,7 @@ env:
   - QT_BASE=53
   - QT_BASE=54
   - QT_BASE=55
-  - QT_BASE=56
+ # - QT_BASE=56
 
 before_install:
   - if [ "$QT_BASE" = "48" ]; then sudo add-apt-repository ppa:beineri/opt-qt487-trusty -y; fi
