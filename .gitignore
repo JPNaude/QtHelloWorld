@@ -27,3 +27,11 @@
 *.exe
 *.out
 *.app
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Qt files
+*.pro.user*
